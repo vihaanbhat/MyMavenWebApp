@@ -28,7 +28,7 @@ pipeline {
         stage('Deploy WAR') {
     steps {
         // Using the * wildcard to match any version of the war file
-        sh 'cp target/MymavenWebApp01*.war /opt/tomcat/webapps/MymavenWebApp01.war'
+        sh 'cp target/MyMavenWebApp01*.war /opt/tomcat/webapps/MyMavenWebApp01.war'
     }
 }
     }
