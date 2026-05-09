@@ -8,7 +8,6 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                // Changed 'master' to 'main' to match your repository settings
                 git branch: 'main', url: 'https://github.com/vihaanbhat/MyMavenWebApp.git'
             }
         }
